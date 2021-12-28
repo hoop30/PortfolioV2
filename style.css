@@ -40,7 +40,7 @@ body {
 .cadre {
     width: 1440px;
     margin: 50px;
-    height: 2000px;
+    height: fit-content;
     background: #ede6e9;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -207,6 +207,7 @@ nav h3 {
     width: 340px;
     height: 62px;
     padding: 0 45px;
+    margin: 0 0 10px 13px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -218,9 +219,6 @@ nav h3 {
     font-size: 24px;
     font-weight: 500;
     margin: 4px 0;
-}
-.carte-logo {
-    margin: 0 0 10px 13px;
 }
 /*cta*/
 
@@ -235,6 +233,9 @@ nav h3 {
 /*presentation*/
 
 /*competences*/
+.competences {
+    margin-bottom: 100px;
+}
 .list-comp {
     height: 170px;
     display: flex;
@@ -266,3 +267,131 @@ nav h3 {
     visibility: hidden;
 }
 /*competences*/
+
+/*projets*/
+.projets {
+    width: 100%;
+    height: 800px;
+    padding: 0 50px;
+    margin-bottom: 150px;
+}
+.box {
+    position: relative;
+    width: 1340px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.blanc {
+    background: #ede6e9;
+    height: 800px;
+    width: 20px;
+    z-index: 1;
+}
+.projet {
+    width: 150px;
+    background: cornflowerblue;
+    height: 800px;
+    transition: 600ms;
+    border: solid 1px firebrick;
+    border-radius: 20px;
+    z-index: 1;
+}
+.projet:hover {
+    height: 800px;
+    width: 1000px;
+    
+}
+.titre {
+    box-sizing: content-box;
+    position: absolute;
+    top: 50%px;
+    left: 40px;
+    width: 400px;
+    z-index: 0;
+}
+/*projets*/
+
+/*footer*/
+footer {
+    width: 100%;
+    padding: 0 50px;
+    background-color: #2F8D5F;
+    height: 230px;
+}
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+footer li {
+    width: 464.8px;
+    height: 172px;
+}
+/*footer cta*/
+.footer-carte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .carte {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px;
+    width: 464.8px;
+    height: 172px;
+    display: flex;
+    justify-content: space-between;
+}
+.titre-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-carte-logo {
+    background-color: #FFBBAC;
+    border-radius: 5px;
+    width: 268px;
+    height: 49.6px;
+    padding: 0 32px;
+    margin: 0 0 8px 10.5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cta-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .carte-titre h2 {
+    margin: 40px 0 0 0;
+}
+footer .carte-titre p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 3.2px 0;
+}
+footer .carte-logo {
+    margin: 0 0 8px 10.4px;
+}
+footer .footer-carte {
+    position: relative;
+    bottom: -29px;
+}
+/*footer cta*/
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer-item:last-child h2 {
+    margin-bottom: 10px;
+}
+.footer-item:last-child p {
+    margin-bottom: 20px;
+}
+/*footer*/
