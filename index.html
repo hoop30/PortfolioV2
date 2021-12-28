@@ -13,12 +13,86 @@
     <!--css-->
     <link rel="stylesheet" href="style.css">
 
+    <!--js-->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="cadre">
+        <nav>
+            <a href="accueil"><h3>Accueil</h3></a>
+            <a href="presentation"><h3>Presentation</h3></a>
+            <a href="competence"><h3>Competence</h3></a>
+            <a href="projets"><h3>Projets</h3></a>
+        </nav>
+        <div id="acceuil" class="accueil">
+            <div class="paralax">
+                <div class="photo">
+                    <img class="ciel" src="img/Fond/ciel.png" alt="">
+                    <img class="fumer" src="img/Fond/fumer.png" alt="">
+                    <img class="soleil" src="img/Fond/soleil90.png" alt="">
+                    <img class="montagne1" src="img/Fond/montagne1.png" alt="">
+                    <img class="montagne2" src="img/Fond/montagne2.png" alt="">
+                    <img class="vert2" src="img/Fond/vert2.png" alt="">
+                    <img class="vert" src="img/Fond/vert.png" alt="">
+                    <img class="oiseaux" src="img/Fond/oiseaux.png" alt="">
+                    <img class="oiseaux2" src="img/Fond/oiseaux2.png" alt="">
+                </div>
+                <script>
+                    var image = document.getElementsByClassName("ciel");
+                    new simpleParallax(image, {
+                        scale: 1,
+                    });
+                    var image = document.getElementsByClassName("fumer");
+                    new simpleParallax(image, {
+                        scale: 1
+                    });
+                    var image = document.getElementsByClassName("soleil");
+                    new simpleParallax(image, {
+                        orientation: 'up'
+                    }); 
+                    var image = document.getElementsByClassName("montagne1");
+                    new simpleParallax(image, {
+                        orientation: 'left'
+                    }); 
+                    var image = document.getElementsByClassName("montagne2");
+                    new simpleParallax(image, {
+                        orientation: 'right'
+                    }); 
+                    var image = document.getElementsByClassName("vert2");
+                    new simpleParallax(image, {
+                        scale: 1
+                    }); 
+                    var image = document.getElementsByClassName("vert");
+                    new simpleParallax(image, {
+                        orientation: 'down'
+                    }); 
+                    var image = document.getElementsByClassName("oiseaux");
+                    new simpleParallax(image, {
+                        orientation: 'up left'
+                    }); 
+                    var image = document.getElementsByClassName("oiseaux2");
+                    new simpleParallax(image, {
+                        orientation: 'up right'
+                    }); 
+                </script>
+            </div>
+            <img class="moi" src="img/photo moi.png" alt="Granier Kévin">
+            <div class="accueil-txt">
+                <h1 class="txt1">Développeur Web</h1>
+                <h1 class="txt2">Découvrez moi</h1>
+                <h2 class="txt3">Mon univers, mes projets</h2>
+            </div>
+            <div class="accueil-dispo">
+                <h2>Mes Disponibilités</h2>
+                <h3><strong>En rechere d’alernance.</strong><br>
+                Je cherche une entreprise pour effectuer ma formation de développeur web</h3>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

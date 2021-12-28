@@ -17,12 +17,12 @@ p {
 }
 h1 {
     font-family: 'Comfortaa', cursive;
-    font-size: ;
+    font-size: 70px;
     font-weight: 700;
 }
 h2 {
     font-family: 'Comfortaa', cursive;
-    font-size: ;
+    font-size: 28px;
     font-weight: 500;
 }
 h3 {
@@ -32,3 +32,145 @@ h3 {
 }
 /*Font*/
 
+body {
+    display: flex;
+    justify-content: center;
+    background: #125358;
+}
+.cadre {
+    width: 1440px;
+    margin: 50px;
+    height: 2000px;
+    background: #ede6e9;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 150px;
+}
+nav h3 {
+    padding: 5px;
+}
+
+/*accueil*/
+.accueil {
+    position: relative;
+    width: 100%;
+    padding: 0 50px;
+}
+/*paralax*/
+.photo {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    overflow: hidden;
+}
+.simpleParallax {
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+}
+.photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+.soleil {
+    width: 80%;
+    height: auto;
+    top: 90px;
+    left: 130px;
+}
+.oiseaux {
+    width: 85%;
+    height: auto;
+    top: 50px;
+    left: 60px;
+}
+.oiseaux2 {
+    width: 85%;
+    height: auto;
+    top: 50px;
+    left: 80px;
+}
+.montagne1 {
+    width: 80%;
+    height: auto;
+    top: 50px;
+    left: 100px;
+}
+.montagne2 {
+    width: 80%;
+    height: auto;
+    top: 50px;
+    left: 110px;
+}
+.vert {
+    width: 80%;
+    height: auto;
+    top: 55px;
+    left: 100px; 
+}
+/*paralax*/
+
+.moi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 580px;
+    padding: 0 50px;
+}
+.accueil-txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 50px;
+    text-align: center;
+}
+.txt1 {
+    position: relative;
+    top: 150px;
+    left: -200px;
+}
+.txt2 {
+    position: relative;
+    top: 200px;
+    left: 0;
+}
+.txt3 {
+    position: relative;
+    top: 200px;
+    left: 80px;
+}
+.accueil-dispo {
+    position: absolute;
+    top: 440px;
+    left: 0;
+    width: 400px;
+    margin: 0 50px;
+    padding-left: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+}
+.accueil-dispo h2 {
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.accueil-dispo p {
+    font-weight: 700;
+}
+/*accueil*/

@@ -41,13 +41,13 @@ The designs were created to the following widths:
 #### h1
 
     font-family: 'Comfortaa', cursive;
-    font-size: ;
+    font-size: 70px;
     font-weight: 700;
 
 #### h2
 
     font-family: 'Comfortaa', cursive;
-    font-size: ;
+    font-size: 28px;
     font-weight: 500;
 
 #### h3
