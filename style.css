@@ -67,6 +67,7 @@ nav h3 {
     position: relative;
     width: 100%;
     padding: 0 50px;
+    margin-bottom: 150px;
 }
 /*paralax*/
 .photo {
@@ -174,3 +175,94 @@ nav h3 {
     font-weight: 700;
 }
 /*accueil*/
+
+/*cta*/
+.cta {
+    background-color: #2F8D5F;
+    width: 100%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.carte {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 5px 10px;
+    width: 581px;
+    height: 215px;
+    display: flex;
+    justify-content: space-between;
+}
+.titre-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.carte-logo {
+    background-color: #FFBBAC;
+    border-radius: 5px;
+    width: 340px;
+    height: 62px;
+    padding: 0 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.carte-titre h2 {
+    margin: 50px 0 0 0;
+}
+.carte-titre p {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 4px 0;
+}
+.carte-logo {
+    margin: 0 0 10px 13px;
+}
+/*cta*/
+
+/*presentation*/
+.presentation {
+    padding: 50px;
+    margin-bottom: 100px;
+}
+.presentation h2 {
+    margin-bottom: 50px;
+}
+/*presentation*/
+
+/*competences*/
+.list-comp {
+    height: 170px;
+    display: flex;
+}
+.liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.liste h3 {
+    text-align: end;
+}
+.rond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rond ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.comp {
+    position: relative;
+    top: 3px;
+    left: -37px;
+}
+.hidden {
+    visibility: hidden;
+}
+/*competences*/
