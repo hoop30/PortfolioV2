@@ -34,24 +34,24 @@ The designs were created to the following widths:
 
 #### p
 
-- Family: font-family: 'Comfortaa', cursive;
-- Font size:
-- Weights: 400
+    font-family: 'Comfortaa', cursive;
+    font-size: ;
+    font-weight: 400;
 
 #### h1
 
-- Family: font-family: 'Comfortaa', cursive;
-- Font size:
-- Weights: 700
+    font-family: 'Comfortaa', cursive;
+    font-size: ;
+    font-weight: 700;
 
 #### h2
 
-- Family: font-family: 'Comfortaa', cursive;
-- Font size:
-- Weights: 500
+    font-family: 'Comfortaa', cursive;
+    font-size: ;
+    font-weight: 500;
 
 #### h3
 
-- Family: font-family: 'Comfortaa', cursive;
-- Font size:
-- Weights: 500
+    font-family: 'Comfortaa', cursive;
+    font-size: ;
+    font-weight: 500;
