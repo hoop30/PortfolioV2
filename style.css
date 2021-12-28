@@ -12,7 +12,7 @@
 /*Font*/
 p {
     font-family: 'Comfortaa', cursive;
-    font-size: ;
+    font-size: 18px;
     font-weight: 400;
 }
 h1 {
@@ -23,12 +23,15 @@ h1 {
 h2 {
     font-family: 'Comfortaa', cursive;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
 }
 h3 {
     font-family: 'Comfortaa', cursive;
-    font-size: ;
+    font-size: 18px;
     font-weight: 500;
+}
+strong {
+    font-weight: 900;
 }
 /*Font*/
 
@@ -169,7 +172,6 @@ nav h3 {
 }
 .accueil-dispo h2 {
     margin-bottom: 10px;
-    font-weight: 700;
 }
 .accueil-dispo p {
     font-weight: 700;
@@ -184,7 +186,7 @@ nav h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .carte {
     background-color: white;
@@ -224,17 +226,26 @@ nav h3 {
 
 /*presentation*/
 .presentation {
-    padding: 50px;
+    padding: 0 50px;
     margin-bottom: 100px;
 }
 .presentation h2 {
     margin-bottom: 50px;
 }
+.presentation p {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
 /*presentation*/
 
 /*competences*/
 .competences {
-    margin-bottom: 100px;
+    padding: 0 50px;
+    margin-bottom: 150px;
+    align-self: flex-start;
+}
+.competences h2 {
+    margin-bottom: 50px;
 }
 .list-comp {
     height: 170px;
@@ -321,9 +332,10 @@ footer {
     height: 230px;
 }
 .footer-item {
+    height: 230px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 footer li {
     width: 464.8px;
@@ -367,7 +379,7 @@ footer .carte {
     align-items: center;
 }
 footer .carte-titre h2 {
-    margin: 40px 0 0 0;
+    margin: 30px 0 0 0;
 }
 footer .carte-titre p {
     font-size: 20px;
@@ -377,21 +389,23 @@ footer .carte-titre p {
 footer .carte-logo {
     margin: 0 0 8px 10.4px;
 }
-footer .footer-carte {
-    position: relative;
-    bottom: -29px;
-}
 /*footer cta*/
 .footer-menu {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    gap: 30px;
 }
-.footer-item:last-child h2 {
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.footer-contact h2 {
     margin-bottom: 10px;
 }
-.footer-item:last-child p {
+.footer-contact:first-child p {
     margin-bottom: 20px;
 }
 /*footer*/
