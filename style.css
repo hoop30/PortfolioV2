@@ -305,11 +305,11 @@ nav h3 {
     width: 20px;
     z-index: 1;
 }
-.projet {
+.projets-content {
     width: 150px;
     background: cornflowerblue;
     height: 800px;
-    transition: 600ms;
+    transition: 1s;
     border: solid 1px firebrick;
     border-radius: 20px;
     z-index: 1;
@@ -317,23 +317,124 @@ nav h3 {
     display: flex;
     justify-content: flex-start;
 }
-.projet img {
+.img-projet {
     width: auto;
     height: 800px;
+    position: relative;
+    
 }
-.projet:hover {
+.img-htlm {
+    width: 800px;
+    height: auto;
+    overflow: auto;
+}
+.projets-content:hover {
     height: 800px;
     width: 1000px;
-    
 }
 .titre {
     box-sizing: content-box;
     position: absolute;
     top: 50%px;
     left: 40px;
-    width: 400px;
+    width: 450px;
     z-index: 0;
 }
+/*-content*/
+.grid {
+    display: grid;
+    grid-template-columns: 445px;
+    grid-template-rows: 353px 445px;
+    position: absolute;
+    overflow: hidden;
+}
+.grid1 {
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+    transition: 400ms;
+}
+.grid1 img {
+    width: 50px;
+    height: 50px;
+    opacity: 60%;
+}
+.grid3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom-left-radius: 20px;
+    padding: 15px 10px;
+    transition: 1s;
+}
+.grid3 h1 {
+    font-size: 60px;
+    transform: translate(-170px, 170px) rotate(-90deg);
+    transition: 1s;
+}
+.bar-logo {
+    opacity: 0%;
+    transition: 1s;
+}
+.bar {
+    width: 200px;
+    height: 15px;
+    display: grid;
+    border-radius: 50px;
+    overflow: hidden;
+    opacity: 0%;
+    transition: 1s;
+}
+.bar p {
+    font-size: 14px;
+    text-align: center;
+}
+.bar-html {
+    background: #e44f26;
+}
+.bar-css {
+    background: #1572b6;
+}
+.bar-js {
+    background: #d6ba32;
+}
+/*--content %bar*/
+.projet-clipboard .bar {
+    grid-template-columns: 48.5% 51.5% 0%;
+}
+.projet-skillex .bar {
+    grid-template-columns: 52.3% 47.7% 0%;
+}
+.projet-portfolio .bar {
+    grid-template-columns: 67% 33% 0%;
+}
+.projet-cryptohype .bar {
+    grid-template-columns: 57.3% 42.7% 0%;
+}
+/*--content %bar*/
+.grid1:hover {
+    opacity: 100%;
+}
+.projets-content:hover .grid3 {
+    transform: none;
+    background: rgba(255, 255, 255, 0.8);
+}
+.projets-content:hover .grid3 h1 {
+    transform: none;
+}
+.projets-content:hover .bar-logo {
+    opacity: 100%;
+}
+.projets-content:hover .bar {
+    opacity: 100%;
+}
+/*-content*/
 /*projets*/
 
 /*footer*/
