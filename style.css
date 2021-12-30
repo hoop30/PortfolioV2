@@ -77,6 +77,10 @@ nav h3 {
     padding: 0 50px;
     margin-bottom: 150px;
 }
+.fond {
+    position: absolute;
+    opacity: 0%;
+}
 /*parallax*/
 .photo {
     position: relative;
@@ -236,6 +240,8 @@ nav h3 {
 .presentation {
     padding: 0 50px;
     margin-bottom: 100px;
+    text-align: center;
+    width: 1000px;
 }
 .presentation h2 {
     margin-bottom: 50px;
@@ -250,7 +256,13 @@ nav h3 {
 .competences {
     padding: 0 50px;
     margin-bottom: 150px;
-    align-self: flex-start;
+    text-align: center;
+}
+.competences-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 300px;
 }
 .competences h2 {
     margin-bottom: 50px;
@@ -285,6 +297,49 @@ nav h3 {
 .hidden {
     visibility: hidden;
 }
+/*-animation logo*/
+.competences-logo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.comp-logo-html {
+    position: absolute;
+    animation-name: rotation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.comp-logo-css {
+    position: absolute;
+    animation-name: rotation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.comp-logo-js {
+    position: absolute;
+    animation-name: rotation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg) translate(120px) rotate(-0deg);
+    }
+    100% {
+        transform: rotate(360deg) translate(120px) rotate(-360deg);
+    }
+    
+}
+/*-animation logo*/
 /*competences*/
 
 /*projets*/
@@ -525,3 +580,41 @@ footer .carte-logo {
     margin-bottom: 20px;
 }
 /*footer*/
+
+
+/*addaptive_responsive*/
+@media screen and (max-width: 1355px) {
+
+    .simpleParallax {
+        opacity: 0%;
+    }
+    .parallax {
+        position: absolute;
+    }
+    .moi {
+        opacity: 0%;
+        transition: 1s;
+    }
+    .fond {
+        position: relative;
+        opacity: 100%;
+        width: 100%;
+        height: auto;
+        transition: 1s;
+    }
+    .accueil {
+        width: 100vw;
+        padding: 0;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .accueil-dispo {
+        position: relative;
+    }
+}
+
+
+/*addaptive_responsive*/
