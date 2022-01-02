@@ -552,6 +552,9 @@ nav h3 {
 /*-content*/
 /*projets*/
 
+/*contact*/
+/*contact*/
+
 /*footer*/
 footer {
     width: 100%;
@@ -795,7 +798,11 @@ footer .carte-logo {
     }
     /*competences*/
 
-    
+    /*contact*/
+    .contact-txt {
+        width: 80vw;
+    }
+    /*contact*/
 
     /*footer*/
     footer {
