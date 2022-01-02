@@ -282,24 +282,41 @@ nav h3 {
 .liste h3 {
     text-align: end;
 }
-.rond {
+.competences-bar {
+    margin-left: 50px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 360px;
 }
-.rond ul {
+.competences-bar2 {
+    width: 200px;
+    height: 15px;
+    border: solid 1px #3f9867;
+    border-radius: 50px;
     display: flex;
-    justify-content: space-around;
-    padding-left: 30px;
+    overflow: hidden;
+    background: white;
 }
-.comp {
-    position: relative;
-    top: 3px;
-    left: -37px;
+.competences-bar-html div {
+    width: 90%;
+    background: #3f9867;
 }
-.hidden {
-    visibility: hidden;
+.competences-bar-css div {
+    width: 90%;
+    background: #3f9867;
+}
+.competences-bar-git div {
+    width: 50%;
+    background: #3f9867;
+}
+.competences-bar-js div {
+    width: 10%;
+    background: #3f9867;
+}
+.competences-bar-ps div {
+    width: 85%;
+    background: #3f9867;
 }
 /*-animation logo*/
 .competences-logo {
@@ -324,7 +341,7 @@ nav h3 {
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 .comp-logo-js {
     position: absolute;
@@ -332,7 +349,15 @@ nav h3 {
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-delay: 4s;
+    animation-delay: 3s;
+}
+.comp-logo-ps {
+    position: absolute;
+    animation-name: rotation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 4.5s;
 }
 @keyframes rotation {
     0% {
@@ -837,18 +862,11 @@ footer .carte-logo {
     /*presentation*/
     
     /*competences*/
-    .rond {
-        width: 250px;
-    }
     .liste h3 {
         font-size: 16px;
     }
-    .rond img {
-        width: 20px;
-        height: 20px;
-    }
-    .comp {
-        left: -26px;
+    .competences-bar2 {
+        width: 180px;
     }
     /*competences*/
 
