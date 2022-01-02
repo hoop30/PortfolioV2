@@ -1,3 +1,24 @@
+/*demo*/
+.demo {
+    align-self: flex-start;
+    position: fixed;
+    z-index: 2;
+    margin-left: 50px;
+    padding: 10px;
+    padding-top: 30px;
+    top: -20px;
+    border-radius: 20px;
+    background: tomato;
+}
+.demo h5 {
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: #4c5359;
+    font-size: 18px;
+    margin: 0;
+}
+/*demo*/
+
 /*font-family: 'ABeeZee', sans-serif;*/
 
 *, a, li {
