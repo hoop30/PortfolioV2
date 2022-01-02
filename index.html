@@ -11,10 +11,13 @@
     <meta name="description" content="Bonjour, Je suis GRANIER Kévin développeur web et ceci est mon portfolio. Vous pourrais donc retrouver ici une présentation de mes différents projets, mon actualité, et de quoi me contacter. Bonne visite. Merci !">
 
     <!--css-->
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
     <!--js-->
     <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
 
     <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -287,6 +290,83 @@
                 <div class="blanc-large"></div>
             </div>
         </div>
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Pour vos projets d’intégration HTML, CSS ou toutes autres questions n'hésitez pas à me contacter. <br> Merci de votre visite !</p>
+
+            <div class="row justify-content-center">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5 gap-3">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-4">
+                                    <input placeholder="Nom" type="text" id="name" name="name" class="form-control">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-4">
+                                    <input placeholder="Email" type="text" id="email" name="email" class="form-control">
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-4">
+                                    <input placeholder="Sujet" type="text" id="subject" name="subject" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form mb-4">
+                                    <textarea placeholder="Votre message" type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="validateForm();">Envoie</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.2-->
         <footer>
             <ul class="footer-item">
                 <li class="footer-carte">
