@@ -520,7 +520,7 @@ nav h3 {
     grid-template-columns: 48.5% 51.5% 0%;
 }
 .projet-skillex .bar {
-    grid-template-columns: 52.3% 47.7% 0%;
+    grid-template-columns: 46.5% 40.2% 15%;
 }
 .projet-portfolio .bar {
     grid-template-columns: 67% 33% 0%;
